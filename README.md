@@ -11,11 +11,11 @@ npm install google-code -g
 ```javascript
 
 // get by code
-gc <code>
+gcode <code>
 
 // save code to cache
-gc -s <code>
+gcode -s <code>
 
 // get by cache
-gc
+gcode
 ```
