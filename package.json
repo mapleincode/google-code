@@ -1,6 +1,6 @@
 {
   "name": "google-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,6 @@
     "google_authenticator": "^1.0.6"
   },
   "bin": {
-    "gc": "index.js"
+    "gcode": "index.js"
   }
 }
