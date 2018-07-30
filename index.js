@@ -38,9 +38,14 @@ if(code === null || code === undefined) {
 }
 
 const googleAuth = require('google_authenticator').authenticator;
+
 const nya = new googleAuth();
 
-console.log(nya.getCode(code));
+try {
+    console.log(nya.getCode(code));
+} catch(err) {
+    throw new Error('error code and error getCode');
+}
 
 
 
